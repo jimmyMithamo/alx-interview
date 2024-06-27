@@ -1,4 +1,10 @@
+#!/usr/bin/python3
+
+
 def pascal_triangle(n):
+    """
+    function that returns the Pascal triangle of n
+    """
     if n <= 0:
         return []
     
